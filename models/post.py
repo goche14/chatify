@@ -1,4 +1,4 @@
-from app import db  
+from extensions import db
 from sqlalchemy.orm import relationship
 
 class post(db.Model):
